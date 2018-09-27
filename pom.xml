@@ -16,11 +16,10 @@
     <dependencies>
         <dependency>
             <groupId>javax.servlet</groupId>
-            <artifactId>servlet-api</artifactId>
-            <version>2.5</version>
+            <artifactId>javax.servlet-api</artifactId>
+            <version>4.0.0</version>
         </dependency>
     </dependencies>
-
 
     <build>
         <finalName>${webTomcat.finalName}</finalName>
@@ -34,6 +33,7 @@
                 </configuration>
             </plugin>
         </plugins>
+
     </build>
 
 </project>

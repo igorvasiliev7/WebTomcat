@@ -9,6 +9,7 @@
 <html>
   <head>
     <title>Web</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
   </head>
   <body>
@@ -40,7 +41,35 @@
         </div>
         <button type="submit" class="btn btn-primary">Submit</button>
       </form>
+
+
+      <form action="result.jsp">
+        <h2>JSP to JSP</h2>
+        <div class="form-group">
+          <label for="exampleInputEmail3">Name</label>
+          <input type="text" class="form-control" id="exampleInputEmail3" name="name" placeholder="Name">
+        </div>
+        <div class="form-group">
+          <label for="exampleInputEmail4">Name</label>
+          <input type="text" class="form-control" id="exampleInputEmail4" name="email" placeholder="Email">
+        </div>
+        <button type="submit" class="btn btn-primary">Submit</button>
+      </form>
+
+
+      <form action="/result">
+        <h2>JSP - Servlet - JSP</h2>
+        <div class="form-group">
+          <label for="name">Name</label>
+          <input type="text" class="form-control" id="name" name="name" placeholder="Name">
+        </div>
+        <button type="submit" class="btn btn-primary">Submit</button>
+      </form>
+
+
+      <a href="/users" class="btn btn-success">Users</a>
     </div>
+
 
   </body>
 </html>

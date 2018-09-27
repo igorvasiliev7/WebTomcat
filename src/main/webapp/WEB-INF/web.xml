@@ -18,4 +18,14 @@
         <url-pattern>/web</url-pattern>
     </servlet-mapping>
 
+    <servlet>
+        <servlet-name>Result</servlet-name>
+        <servlet-class>servlet.ResultServler</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>Result</servlet-name>
+        <url-pattern>/result</url-pattern>
+    </servlet-mapping>
+
 </web-app>
